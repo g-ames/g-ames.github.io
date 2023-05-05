@@ -2,7 +2,23 @@
 <p>
   In order to use, you must download a file, and use a 'data:' link.
   The 'data:' link is a loader, which allows you to save all of the games.
-  The file is a completely unencypted JSON.
+  The file is a completely unencypted JSON. You might have to put 'data:text/html;base64,'
+  in front of the stuff that gets copied. Finally, the json looks like this:
+  
+  {
+    "games": [
+      {
+        "name": "Game 1",
+        "desc": "Description of Game 1",
+        "data": "base64-encoded-data-1"
+      },
+      {
+        "name": "Game 2",
+        "desc": "Description of Game 2",
+        "data": "base64-encoded-data-2"
+      }
+    ]
+  }
 </p>
 <button onclick="copyLoader();">Copy the loader</button>
 <script>
