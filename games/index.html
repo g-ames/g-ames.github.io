@@ -29,10 +29,19 @@
     const gameCount = 7638;
 
     for (let i = 1; i <= gameCount; i++) {
-      const gameLink = document.createElement('a');
-      gameLink.href = `/games/main/game${i}.html`;
-      gameLink.textContent = `Game ${i}  `;
-      gamesDiv.appendChild(gameLink);
+      
+
+    $.ajax({
+        type: 'HEAD',
+        url: 'https://g-ames.github.io./games/main/game${i}.html',
+        success: function() {
+          const gameLink = document.createElement('a');
+          gameLink.href = `/games/main/game${i}.html`;
+          gameLink.textContent = `Game ${i}  `;
+          gamesDiv.appendChild(gameLink);
+        },
+        error: function() {}
+    });
     }
   </script>
 </html>
