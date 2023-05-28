@@ -41,7 +41,9 @@
           gameLink.textContent = `Game ${i}  `;
           gamesDiv.appendChild(gameLink);
         },
-        error: function() {}
+        error: function() {
+        console.log(`game{i}.html no exist`);
+        }
     });
     }
   </script>
