@@ -34,7 +34,7 @@
 
     $.ajax({
         type: 'HEAD',
-        url: 'https://g-ames.github.io./games/main/game${i}.html',
+        url: `https://g-ames.github.io./games/main/game${i}.html`,
         success: function() {
           const gameLink = document.createElement('a');
           gameLink.href = `/games/main/game${i}.html`;
