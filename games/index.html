@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5900953824983292"
-     crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5900953824983292" crossorigin="anonymous"></script>
     <title>G-ames | Games</title>
   </head>
   <body>
@@ -16,6 +15,7 @@
       </nav>
     </header>
     <main>
+      <p>Sorry about the whole 'gameX' thing</p>
       <h2>Games</h2>
       <div id="games"></div>
     </main>
@@ -24,4 +24,15 @@
     </footer>
   </body>
   <link href="/styling.css" rel="stylesheet" type="text/css"/>
+  <script>
+    const gamesDiv = document.getElementById('games');
+    const gameCount = 1140;
+
+    for (let i = 1; i <= gameCount; i++) {
+      const gameLink = document.createElement('a');
+      gameLink.href = `game${i}.html`;
+      gameLink.textContent = `Game ${i}`;
+      gamesDiv.appendChild(gameLink);
+    }
+  </script>
 </html>
