@@ -29,7 +29,17 @@
     const gamesDiv = document.getElementById('games');
     const gameCount = 12792;
 
-    for (let i = 1; i <= gameCount; i++) {
+    function get(name){
+     if(name=(new RegExp('[?&]'+encodeURIComponent(name)+'=([^&]*)')).exec(location.search))
+        return decodeURIComponent(name[1]);
+    }
+    const page = get("page");
+    if(page === undefined) {
+      page = 1;
+    } else {
+      page = parseInt(page)*20;
+    }
+    for (let i = page; i <= 20; i++) {
       
 
     $.ajax({
