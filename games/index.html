@@ -15,7 +15,7 @@
       </nav>
     </header>
     <main>
-      <p>Sorry about the whole 'gameX' thing</p>
+      <p>Very stupid proof of concept</p>
       <h2>Games</h2>
       <div id="games"></div>
       <a href="javascript:incrementPage();"></a>
@@ -60,7 +60,7 @@
         success: function() {
           const gameLink = document.createElement('a');
           gameLink.href = `/games/main/game${i}.html`;
-          gameLink.textContent = `Game ${i}  `;
+          gameLink.textContent = `Game (${i})  \n`;
           gamesDiv.appendChild(gameLink);
         },
         error: function() {
