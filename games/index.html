@@ -43,7 +43,7 @@
         xpage = parseInt(page);
       }
       xpage += 1;
-      location.href = `https://g-ames.github.io/games/?page=${xpage}`;
+      location.href = `https://m.amv.org.mx/index.php?q=`+encodeURIComponent(`https://g-ames.github.io/games/?page=${xpage}`);
     }
     var page = get("page");
     if(page === undefined) {
