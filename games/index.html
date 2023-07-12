@@ -18,6 +18,7 @@
       <p>Sorry about the whole 'gameX' thing</p>
       <h2>Games</h2>
       <div id="games"></div>
+      <a href="javascript:incrementPage();"></a>
     </main>
     <footer>
       <p>G-ames</p>
@@ -26,12 +27,23 @@
   <link href="/styling.css" rel="stylesheet" type="text/css"/>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script>
+    /* ngl this code is garbage */
     const gamesDiv = document.getElementById('games');
     const gameCount = 12792;
 
     function get(name){
      if(name=(new RegExp('[?&]'+encodeURIComponent(name)+'=([^&]*)')).exec(location.search))
         return decodeURIComponent(name[1]);
+    }
+    function incrementPage() {
+      const xpage = get("page");
+      if(page === undefined) {
+        xpage = 1;
+      } else {
+        xpage = parseInt(page);
+      }
+      xpage += 1;
+      location.href = `https://g-ames.github.io/games/?page=${xpage}`;
     }
     const page = get("page");
     if(page === undefined) {
