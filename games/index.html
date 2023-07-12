@@ -36,7 +36,7 @@
         return decodeURIComponent(name[1]);
     }
     function incrementPage() {
-      const xpage = get("page");
+      var xpage = get("page");
       if(page === undefined) {
         xpage = 1;
       } else {
@@ -45,13 +45,13 @@
       xpage += 1;
       location.href = `https://g-ames.github.io/games/?page=${xpage}`;
     }
-    const page = get("page");
+    var page = get("page");
     if(page === undefined) {
       page = 1;
     } else {
-      page = parseInt(page)*20;
+      page = parseInt(page);
     }
-    for (let i = page; i <= 20; i++) {
+    for (let i = (page*20); i <= (page*20)+20; i++) {
       
 
     $.ajax({
