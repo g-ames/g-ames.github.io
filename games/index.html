@@ -17,8 +17,8 @@
     <main>
       <p>Very stupid proof of concept</p>
       <h2>Games</h2>
-      <div id="games"></div>
-      <a href="javascript:incrementPage();"></a>
+      <div id="games"></div><br><br>
+      <a href="javascript:incrementPage();">Next page</a>
     </main>
     <footer>
       <p>G-ames</p>
@@ -59,12 +59,14 @@
         url: `https://g-ames.github.io./games/main/game${i}.html`,
         success: function() {
           const gameLink = document.createElement('a');
+          const nl = document.createElement('br');
           gameLink.href = `/games/main/game${i}.html`;
-          gameLink.textContent = `Game (${i})  \n`;
+          gameLink.textContent = `Game (${i})  `;
           gamesDiv.appendChild(gameLink);
+          gamesDiv.appendChild(nl);
         },
         error: function() {
-        console.log(`game{i}.html no exist`);
+          console.log(`game{i}.html no exist`);
         }
     });
     }
