@@ -1,0 +1,50 @@
+button {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background: #000000;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 14px 24px 16px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    transition: transform 200ms,background 200ms;
+    :hover{
+      transform: translateY(-2px);
+    } 
+}
+
+input {
+    background-color: rgb(250, 251, 252);
+    border-color: rgb(223, 225, 230);
+    color: rgb(9, 30, 66);
+    cursor: text;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: background-color 0.2s ease-in-out 0s, border-color 0.2s ease-in-out 0s;
+    line-height: 1.42857; 
+    padding: 8px 6px;
+    height: 36px;
+    :hover{
+      background-color: rgb(235, 236, 240);
+    }
+    :focus{
+      background-color: rgb(255, 255, 255);
+      border-color: rgb(76, 154, 255);
+    } 
+}
+
+body {
+    background-color: #484f58;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
