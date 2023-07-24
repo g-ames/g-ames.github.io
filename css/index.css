@@ -50,7 +50,7 @@ body {
 }
 
 .game_container {
-  background-color: lightblue;
+  background-color: lightgray;
   border-radius: 1vh;
   width: max-content;
   padding: 10px;
