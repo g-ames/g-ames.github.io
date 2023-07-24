@@ -51,6 +51,7 @@ body {
 }
 
 .horizontally-center {
+  position: fixed;
   left: 50%;
 }
 
