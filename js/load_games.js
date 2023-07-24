@@ -30,7 +30,6 @@ async function loadGames() {
         fragment.appendChild(game_name);
         fragment.appendChild(document.createElement('br'));
         fragment.appendChild(game_thumbnail);
-        fragment.appendChild(game_desc);
         fragment.appendChild(game_redirect);
 
         game_subcontainer.appendChild(fragment);
