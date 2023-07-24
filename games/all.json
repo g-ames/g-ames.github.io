@@ -8,331 +8,331 @@
     {
         "name":"1-(2048-remake)",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "1-2048-remake",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"chrome-dino",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "chrome-dino",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"flappy-2048",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "flappy-2048",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"ninja-vs-evilcorp",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "ninja-vs-evilcorp",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"solitare",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "solitare",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"2048-multitask",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "2048-multitask",
         "desc" : "A game which is purely for example purposes"
     },
     {
         "name":"connect-3",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "connect-3",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"flappy-bird",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "flappy-bird",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"offline-paradise",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "offline-paradise",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"space-company",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "space-company",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"2048",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "2048",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"coreball",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "coreball",
         "desc" : "A game which is purely for example purposes"
     },
     {
         "name":"google-fued",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "google-fued",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"particle-clicker",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "particle-clicker",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"stack",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "stack",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"9007199254740992-(alternate-2048)",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "9007199254740992-alternate-2048",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"csgo-clicker",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "csgo-clicker",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"hextris",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "hextris",
         "desc" : "A game which is purely for example purposes"
     },
     {
         "name":"push-back",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "push-back",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"swerve",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "swerve",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"a-dark-room",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "a-dark-room",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"doge-2048",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "doge-2048",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"idle-shark",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "idle-shark",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"radius-raid",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "radius-raid",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"the-hotel",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "the-hotel",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"asteroids",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "asteroids",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"dogeminer",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "dogeminer",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"just-one-boss",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "just-one-boss",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"retrohaunt",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "retrohaunt",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"trimps",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "trimps",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"astray",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "astray",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"doodlejump",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "doodlejump",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"konnekt",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "konnekt",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"rolling-forests",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "rolling-forest",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"upload-rom",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "upload-rom",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"black-hole-square",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "black-hole-square",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"edge-not-found",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "edge-not-found",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"minecraft",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "minecraft",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"sandboxels",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "sandboxels",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"weave-silk",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "weave-silk",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"breaklock",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "breaklock",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"evil-glitch",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "evil-glitch",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"minesweeper",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "minesweeper",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"sandgame",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "sandgame",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"webretro",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "webretro",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"chess",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "chess",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"exo",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "exo",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"missiles",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "missiles",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"shuttledeck",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "shuttledeck",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"xx142b2exe",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "xx142b2exe",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"chroma-incident",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "chroma-incident",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"fakevirus",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "fakevirus",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"ngon",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "ngon",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"sleeping-beauty",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "sleeping-beauty",
         "desc" : "A game which is purely for example purposes"
     }, 
     {
         "name":"you-are-bezos",
         "thumbnail" : "https://en.pimg.jp/047/508/933/1/47508933.jpg",
-        "slug" : "example",
+        "slug" : "you-are-bezos",
         "desc" : "A game which is purely for example purposes"
     }
 ]
