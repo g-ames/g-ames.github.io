@@ -52,7 +52,6 @@ body {
 
 .horizontally-center {
   left: 50%;
-  transform: translate(-50%, 0%);
 }
 
 .game_container {
