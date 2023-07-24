@@ -9,13 +9,14 @@ async function loadGames() {
 
         var game_subcontainer = document.createElement("div");
 
-        var game_name = document.createElement("i");
+        var game_name = document.createElement("h3");
         game_name.innerText = game["name"];
         game_name.for = `thumbnail_${i}`;
 
         var game_thumbnail = document.createElement("img");
         game_thumbnail.src = game["thumbnail"];
         game_thumbnail.id = `thumbnail_${i}`;
+
         game_thumbnail.style.width = "204px";
         game_thumbnail.style.height = "152px";
 
@@ -27,6 +28,7 @@ async function loadGames() {
 
         var fragment = document.createDocumentFragment();
         fragment.appendChild(game_name);
+        fragment.appendChild(document.createElement('br'));
         fragment.appendChild(game_thumbnail);
         fragment.appendChild(game_desc);
         fragment.appendChild(game_redirect);
