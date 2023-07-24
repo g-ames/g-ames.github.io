@@ -8,6 +8,7 @@ async function loadGames() {
         var game = games[i];
 
         var game_subcontainer = document.createElement("div");
+        game_subcontainer.classList = ["game_container"];
 
         var game_name = document.createElement("h3");
         game_name.innerText = game["name"];
@@ -28,7 +29,6 @@ async function loadGames() {
 
         var fragment = document.createDocumentFragment();
         fragment.appendChild(game_name);
-        fragment.appendChild(document.createElement('br'));
         fragment.appendChild(game_thumbnail);
         fragment.appendChild(game_redirect);
 
