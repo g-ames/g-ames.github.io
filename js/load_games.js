@@ -9,13 +9,15 @@ async function loadGames() {
 
         var game_subcontainer = document.createElement("div");
 
-        var game_name = document.createElement("label");
+        var game_name = document.createElement("i");
         game_name.innerText = game["name"];
         game_name.for = `thumbnail_${i}`;
 
         var game_thumbnail = document.createElement("img");
         game_thumbnail.src = game["thumbnail"];
         game_thumbnail.id = `thumbnail_${i}`;
+        game_thumbnail.style.width = "204px";
+        game_thumbnail.style.height = "152px";
 
         var game_desc = document.createElement("p");
         game_desc.innerText = game["desc"];
