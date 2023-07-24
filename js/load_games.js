@@ -9,7 +9,7 @@ async function loadGames() {
 
         var game_subcontainer = document.createElement("div");
         game_subcontainer.classList = ["game_container"];
-
+    
         var game_name = document.createElement("h3");
         game_name.innerText = game["name"];
         game_name.for = `thumbnail_${i}`;
