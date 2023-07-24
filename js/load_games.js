@@ -27,12 +27,10 @@ async function loadGames() {
         var game_redirect = document.createElement("a");
         game_redirect.href = `/games/game/${game["slug"]}`;
 
-        var fragment = document.createDocumentFragment();
-        fragment.appendChild(game_name);
-        fragment.appendChild(game_thumbnail);
-        fragment.appendChild(game_redirect);
+        game_redirect.appendChild(game_name);
+        game_redirect.appendChild(game_thumbnail);
+        game_subcontainer.appendChild(game_redirect);
 
-        game_subcontainer.appendChild(fragment);
         game_container.appendChild(game_subcontainer);
     }
 }
