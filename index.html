@@ -1,12 +1,48 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5900953824983292" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="/css/index.css">
-    </head>
-    
-    <body> 
-        <h1 class="horizontally-center" style="color:white;">G-ames<h1>
-        <button class="centered"><a href="/games">Play</a></button>
-    </body>
-</html>
+<header>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5900953824983292" crossorigin="anonymous"></script>
+</header>
+
+<body>
+    <div class="horizontal-stack">
+        <div class="padded glassy fixed-sidebar" id="detail-sidebar">
+            <h1 class="white" id="detail-sidebar-name">
+                Welcome!
+            </h1>
+            <img class="thumbnail" id="detail-sidebar-thumbnail"></img>
+            <p class="white" id="detail-sidebar-desc"></p>
+            <a id="detail-sidebar-go"><button></button></a>
+            <p class="white" style="bottom:5vh;position:fixed">
+                Inspired by 3hk0
+            </p>
+        </div>
+        <div class="padded main">
+            <div class="top-bar rounded-borders glassy">
+                <button onclick="gameListContainer.style.display='';settings.style.display='none';">Games <i
+                        class="fa fa-gamepad"></i></button>
+                <button onclick="gameListContainer.style.display='none';settings.style.display='';">Settings <i
+                        class="fa-solid fa-gear"></i></button>
+            </div>
+            <hr>
+            <div class="glassy padded game-list-container" id="game-list">
+            </div>
+            <div class="glassy padded" id="settings" style="display:none;">
+                <input type="checkbox">
+                <p style="color:white;display:inline;">
+                    Use proxies for external sites
+                </p>
+                </input>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <script src="loader.js"></script>
+    <script src="background.js"></script>
+</footer>
+
+</html>>
