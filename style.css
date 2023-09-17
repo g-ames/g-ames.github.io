@@ -1,65 +1,155 @@
-button {
-    display: inline-block;
-    outline: 0;
-    border: 0;
-    cursor: pointer;
-    background: #000000;
-    color: #FFFFFF;
-    border-radius: 8px;
-    padding: 14px 24px 16px;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1;
-    transition: transform 200ms,background 200ms;
-    :hover{
-      transform: translateY(-2px);
-    } 
+/* Style the <details> element */
+ details {
+     background: rgba(143, 124, 124, 0.25);
+     border-radius: 16px;
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     backdrop-filter: blur(5px);
+     -webkit-backdrop-filter: blur(5px);
+     border: 1px solid rgba(255, 255, 255, 0.3);
+     margin: 1em;
+    /* Add margin for spacing */
+     color: white;
 }
-
-input {
-    background-color: rgb(250, 251, 252);
-    border-color: rgb(223, 225, 230);
-    color: rgb(9, 30, 66);
-    cursor: text;
-    border-radius: 3px;
-    border-width: 2px;
-    border-style: solid;
-    box-sizing: border-box;
-    font-size: 14px;
-    transition: background-color 0.2s ease-in-out 0s, border-color 0.2s ease-in-out 0s;
-    line-height: 1.42857; 
-    padding: 8px 6px;
-    height: 36px;
-    :hover{
-      background-color: rgb(235, 236, 240);
-    }
-    :focus{
-      background-color: rgb(255, 255, 255);
-      border-color: rgb(76, 154, 255);
-    } 
+/* Style the <summary> element */
+ summary {
+     cursor: pointer;
+     padding: 10px;
+     font-weight: bold;
+     color: white;
+     background-color: rgba(20, 20, 20, 0.25);
+     border-radius: 8px;
 }
-
-body {
-    background-color: #484f58;
+/* Style the <summary> element when expanded */
+ summary::-webkit-details-marker {
+     display: none;
 }
-
-.centered {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+/* Adjust padding for the <summary> element when expanded */
+ details[open] summary {
+     padding: 10px 10px 10px 0;
 }
-
-.horizontally-center {
-  position: fixed;
-  left: 50%;
-  transform: translate(-50%, -50%);
+ body {
+     height: 100vh;
+     margin: 0;
+     overflow: hidden;
+     background-image: linear-gradient(155deg, hsl(240deg 100% 11%) 0%, hsl(345deg 81% 24%) 58%, hsl(55deg 100% 22%) 100%);
+     animation: rotateBackground 10s linear infinite;
+    /* Rotate every 10 seconds */
 }
-
-.game_container {
-  background-color: lightgray;
-  border-radius: 1vh;
-  width: max-content;
-  padding: 10px;
-  margin: 5px;
+ .rounded-borders {
+     border-radius: 1vh;
+}
+ button {
+     width: fit-content;
+     height: fit-content;
+     padding: 0.5em 1em;
+     border: 1px solid rgba(255, 255, 255, 0.3);
+     border-radius: 6px;
+     background-color: rgb(36, 124, 226);
+     font-size: 16px;
+     transition: background-color 0.1s ease-in-out, transform 0.1s ease-in-out;
+    /* Adjust transition timing */
+}
+ button:hover {
+     background-color: rgb(84, 156, 237);
+     transform: scale(1.05);
+    /* Make the hover effect snappier */
+}
+ button:active {
+     background-color: rgb(135, 184, 240);
+}
+ .glassy {
+     background: rgba(143, 124, 124, 0.25);
+     border-radius: 16px;
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     backdrop-filter: blur(5px);
+     -webkit-backdrop-filter: blur(5px);
+     border: 1px solid rgba(255, 255, 255, 0.3);
+}
+ .top-bar {
+     position: relative;
+     display: flex;
+     justify-content: center;
+    /* Center horizontally */
+     align-items: center;
+    /* Center vertically */
+     background-color: rgba(20, 20, 20, 0.25);
+     padding: 10px;
+     gap: 10px;
+    /* Add spacing between the buttons */
+}
+ .padded {
+     padding: 2vh;
+}
+ .white {
+     color: white;
+}
+/* .game-container {
+     display: flex;
+     justify-content: space-between;
+     width: min-content;
+     gap: 2em;
+}
+ */
+ .game-details {
+     display: flex;
+     flex-direction: column;
+    /* Set the flex direction to column */
+     gap: 1em;
+     max-height: 300px;
+    /* Set a maximum height for the container */
+     overflow-y: auto;
+    /* Add a vertical scrollbar when content overflows vertically */
+}
+ .game-container {
+     display: flex;
+     flex-wrap: wrap;
+    /* Allow items to wrap to the next row when there's not enough horizontal space */
+     gap: 1em;
+    /* Set the gap between items */
+     max-width: 250px;
+     max-height: 250px;
+}
+ .thumbnail {
+     height: auto;
+     border-radius: 0.5em;
+     max-height: 113px;
+}
+ .game-list-container {
+     display: flex;
+     flex-wrap: wrap;
+    /* Allow items to wrap to the next row when there's not enough horizontal space */
+     gap: 1em;
+    /* Set the gap between items */
+}
+ desc {
+     color: white;
+     font-style: italic;
+}
+ .on-hover {
+     transition: 0.15s ease-in-out;
+    /* Apply the transition to the default state as well */
+}
+ .on-hover:hover {
+     transform: scale(1.1);
+     border: 1px solid rgba(42, 244, 255, 0.3);
+}
+ .horizontal-stack {
+     display: flex;
+     flex-direction: row;
+}
+ .fixed-sidebar {
+     position: fixed;
+     top: 2.5%;
+     left: 0;
+     width: 200px;
+    /* Adjust the width as needed */
+     height: 90%;
+     color: white;
+    /* Change the text color to your preference */
+     padding: 20px;
+    /* Add padding for spacing */
+}
+ .main {
+     margin-left: 230px;
+     width: 100%;
 }
