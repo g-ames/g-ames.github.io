@@ -14,7 +14,7 @@ function linkToName(link) {
 
 function setDetailSidebar(details) {
     const { rlink, imagePath, description } = details;
-    const link = `/games/${rlink}`;
+    const link = `/games/game/${rlink}`;
     const name = linkToName(link);
 
     detailSidebarName.textContent = name;
