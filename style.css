@@ -27,13 +27,16 @@
  details[open] summary {
      padding: 10px 10px 10px 0;
 }
- body {
-     height: 100vh;
-     margin: 0;
-     overflow: hidden;
-     background-image: linear-gradient(155deg, hsl(240deg 100% 11%) 0%, hsl(345deg 81% 24%) 58%, hsl(55deg 100% 22%) 100%);
-     animation: rotateBackground 10s linear infinite;
+body {
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(155deg,
+            hsl(240deg 100% 11%) 0%,
+            hsl(345deg 81% 24%) 58%,
+            hsl(55deg 100% 22%) 100%);
+    animation: rotateBackground 10s linear infinite;
     /* Rotate every 10 seconds */
+    background-attachment: fixed; /* Keep the background fixed while scrolling */
 }
  .rounded-borders {
      border-radius: 1vh;
